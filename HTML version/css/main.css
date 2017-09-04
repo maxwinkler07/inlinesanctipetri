@@ -1,0 +1,93 @@
+/*Customs CSS for Inline Sancti Petri */
+
+
+/*Navigation stuff */
+
+.navbar {}
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	font-size: 1.15em;
+}
+.intro-title {
+	font-size: 1.8em;
+}
+.year-title p {
+	color: red;
+	text-align: center;
+	margin-top: 2em;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-style: italic;
+	font-size: 3em;
+}
+.intro-text {}
+.text-intro {
+	width: 58%;
+	font-size: 1.2em;
+}
+.apuntate-btn {}
+.iniciacion {
+	font-size: 1.2em;
+	float: right;
+	margin-right: 1.5em;
+}
+.custom-btn-1 {
+	display: inline-block;
+	border: 1px solid transparent;
+	padding: 0.7em 2em 0.7em 2em;
+	font-size: 1.5em;
+	line-height: 1.25;
+	border-radius: 0.25rem;
+	transition: all 0.15s ease-in-out;
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+	float: right;
+}
+.custom-btn-1:hover {
+	color: #fff;
+	background-color: #0069d9;
+	border-color: #0062cc inherit;
+	text-decoration: none;
+}
+.row {
+	margin-top: 2em;
+	margin-bottom: 3em;
+	float: right;
+}
+.card-header {
+	background-color: grey;
+}
+.card-body {
+	text-align: center;
+}
+
+.custom-card{
+  width: 348px;
+  height: 47;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+	background-color: black;
+
+
+}
+
+
+footer div{
+	background-color: black;
+}
+
+footer ul{
+  list-style: none;
+  float: left;
+}
+
+footer ul li span{
+  border-bottom: 1px solid #ccc !important;
+  border-color: #f44336 !important;
+}
