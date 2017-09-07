@@ -60,34 +60,168 @@
 .card-body {
 	text-align: center;
 }
-
-.custom-card{
-  width: 348px;
-  height: 47;
+.custom-card {
+	width: 348px;
+	height: 47;
 }
-
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
+.datagrid table {
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+}
+.datagrid {
+	font: normal 12px/150% Arial, Helvetica, sans-serif;
+	background: #fff;
+	overflow: hidden;
+	border: 1px solid #991821;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.datagrid table td, .datagrid table th {
+	padding: 3px 10px;
+}
+.datagrid table thead th {
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #991821), color-stop(1, #80141C));
+	background: -moz-linear-gradient( center top, #991821 5%, #80141C 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#991821', endColorstr='#80141C');
+	background-color: #991821;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+	border-left: 1px solid #B01C26;
+}
+.datagrid table thead th:first-child {
+	border: none;
+}
+.datagrid table tbody td {
+	color: #80141C;
+	border-left: 1px solid #F7CDCD;
+	font-size: 12px;
+	font-weight: normal;
+}
+.datagrid table tbody .alt td {
+	background: #F7CDCD;
+	color: #80141C;
+}
+.datagrid table tbody td:first-child {
+	border-left: none;
+}
+.datagrid table tbody tr:last-child td {
+	border-bottom: none;
+}
+.collapse {
+	margin-bottom: 1em;
+}
+.card-header {
+	background-color: rgba(0, 0, 0, .03);
+}
+
+
+
+.custom-card-body {
+	width: 40%;
+	text-align: left;
+	float: left;
+	padding: 1em;
+}
+
+.custom1-card-body{
+	width: 50%;
+	float: left;
+	padding: 1em;
+	text-align: left;
+
+}
+
+.custom2-card-body{
+	padding: 1em;
+}
+
+.equipment-img {
+	float: left;
+	padding-top: 1em;
+	display: block;
+	border: 1px solid #ddd;
+	margin-top:1em;
+
+}
+.equipment-text {
+	text-align: center;
+	background-color: beige;
+}
+
+
+.cartel-img{
+	margin-left: 10em;
+}
+
+.card-img-top{
+	width: 200px;
+	height: 200px;
+}
+
+.custom-staff-card{
+	display: block;
+}
+
+.help-icon{
+	position: absolute;
+	margin-left: 10em;
+
+
+	background-color: rgba(0, 0, 0, 0.6);
+	 position: absolute;
+
+	 margin: 5px 5px 0 5px;
+	 opacity: 0;
+	 color:transparent;
+	 -webkit-transition:  0.4s;
+	 transition:  0.4s;
+
+	 text-align:center;
+
+
+}
+
 footer {
 	background-color: black;
-
-
 }
-
-
-footer div{
+footer div {
 	background-color: black;
 }
-
-footer ul{
-  list-style: none;
-  float: left;
+footer ul {
+	list-style: none;
+	float: left;
+}
+footer ul li span {
+	border-bottom: 1px solid #ccc !important;
+	border-color: #f44336 !important;
 }
 
-footer ul li span{
-  border-bottom: 1px solid #ccc !important;
-  border-color: #f44336 !important;
+
+/* JUST TESTING
+
+.custom-container{
+	width: 100%;
 }
+
+.left{
+	float: left;
+}
+
+.center{
+	margin: 0 auto;
+
+}
+
+.right{
+	float: right;
+}
+
+ */
