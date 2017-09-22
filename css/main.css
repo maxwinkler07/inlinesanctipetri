@@ -185,6 +185,11 @@
 	display: block;
 }
 
+.staff-row{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
 .help-icon{
 	position: absolute;
 	margin-left: 10em;
@@ -251,6 +256,42 @@ div.tab button.active {
 	 padding: 6px 12px;
 	 border: 1px solid #ccc;
 	 border-top: none;
+}
+
+
+.team-dropdown{
+	width: 100%;
+	text-align: center;
+	background-color: grey;
+	height: 6em;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin-top: 23em;
+}
+
+.team-members{
+
+}
+
+.equipo-benj{
+
+}
+
+.equipo-alv{
+
+}
+
+.equipo-inf{
+
+}
+
+.equipo-sen{
+
+}
+
+.equipo-sur{
+	
 }
 
 footer{
