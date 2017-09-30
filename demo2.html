@@ -1,102 +1,259 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="es">
 <head>
-<style>
-body {font-family: "Lato", sans-serif;}
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta content="" name="description">
+	<meta content="" name="author">
 
-/* Style the tab */
-div.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-div.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-div.tab button:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-div.tab button.active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-}
-
-/* Style the close button */
-.topright {
-    float: right;
-    cursor: pointer;
-    font-size: 20px;
-}
-
-.topright:hover {color: red;}
-</style>
+	<title>Nuestro equipo - Club In-line Sancti Petri</title>
+  <link href='../favicon.ico' rel='shortcut icon' type='image/x-icon'><!-- Bootstrap core CSS -->
+	<link href="../vendor/bootstrap/css/bootstrap.css" rel="stylesheet"><!-- Custom styles for this template -->
+	<link href="../css/modern-business.css" rel="stylesheet">
+	<link href="../css/main.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+      $("select").change(function(){
+          $(this).find("option:selected").each(function(){
+              var optionValue = $(this).attr("value");
+              if(optionValue){
+                  $(".team-members").not("." + optionValue).hide();
+                  $("." + optionValue).show();
+              } else{
+                  $(".team-members").hide();
+              }
+          });
+      }).change();
+  });
+  </script>
 </head>
-<body>
 
-<p>Click on the x button in the top right corner to close the current tab:</p>
+  <body>
 
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html"><img src="../images/logos/logo-color.gif" width="80" height="100" alt="Logo In-line Sancti Petri"></a> <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+
+        <div class="intro-title">
+          Club In-line Sancti Petri
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link hvr-grow hvr-underline-from-center" href="../index.html">Inicio</a>
+            </li>
+						<li class="nav-item">
+							<a class="nav-link hvr-grow hvr-underline-from-center" href="../escuelas.html">Escuelas</a>
+						</li>
+
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle hvr-grow hvr-underline-from-center" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Competiciones
+							</a>
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+								<a class="dropdown-item" href="../competiciones/index.html">Todas las competiciones</a>
+								<a class="dropdown-item" href="../competiciones/benjamin.html">Liga Andaluza Benjamín</a>
+								<a class="dropdown-item" href="../competiciones/alevin.html">Liga Andaluza Alevín</a>
+								<a class="dropdown-item" href="../competiciones/infantil.html">Liga Andaluza Infatil</a>
+								<a class="dropdown-item" href="../competiciones/senior.html">Liga Andaluza Senior</a>
+								<a class="dropdown-item" href="../competiciones/liga-sur.html">Liga Sur</a>
+
+							</div>
+						</li>
+
+
+
+
+            <li class="nav-item">
+              <a class="nav-link hvr-grow hvr-underline-from-center" href="../nuestro-equipo/index.html">Nuestro equipo</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link hvr-grow hvr-underline-from-center" href="../noticias.html">Noticias</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link hvr-grow hvr-underline-from-center" href="../contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Page Content -->
+
+    <!-- Page Content -->
+    <div class="container">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="index.html">Inicio</a>
+        </li>
+        <li class="breadcrumb-item active">Nuestro equipo</li>
+      </ol>
+      <!-- Intro Content -->
+      <div class="row no-float">
+        <div class="col-lg-6">
+          <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" width="750" height="450"  alt="Nuestro equipo">
+        </div>
+        <div class="col-lg-6">
+          <h2>Nuestro equipo</h2>
+
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
+
+
+
 </div>
 
-<div id="London" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
+<div class="team-dropdown">
+<h3>Elige equipo</h3>
+<div class="team dropdown styled-select slate">
+  <select autofocus>
+		<option value="equipo-todos">Todos los miembros</option>
+		<option value="equipo-direct">Miembros administrativos</option>
+		<option value="equipo-benj">Benjamín</option>
+		<option value="equipo-alv">Alevín</option>
+		<option value="equipo-inf">Infantil</option>
+		<option value="equipo-sen">Senior</option>
+		<option value="equipo-sur">Liga Sur</option>
+  </select>
 </div>
 
-<div id="Paris" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
+<select autofocus>
+					 <option value="equipo-todos">Todos los miembros</option>
+					 <option value="equipo-direct">Miembros administrativos</option>
+           <option value="equipo-benj">Benjamín</option>
+           <option value="equipo-alv">Alevín</option>
+           <option value="equipo-inf">Infantil</option>
+           <option value="equipo-sen">Senior</option>
+           <option value="equipo-sur">Liga Sur</option>
+
+       </select>
+
 </div>
 
-<div id="Tokyo" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+
+
+<!--
+  <div class="equipo-benj"> a </div>
+   <div class="equipo-alv">  b </div>
+   <div class="equipo-inf"> c </div>
+   <div class="equipo-sen"> d </div>
+   <div class="equipo-sur"> e </div>
+
+
 </div>
 
-<script>
-function openCity(evt, cityName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
+https://www.tutorialrepublic.com/codelab.php?topic=faq&file=jquery-show-hide-div-using-select-box
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
+-->
 
-</body>
-</html>
+
+<div class="equipo-benj team-members">
+
+	<figure>
+	<img class= "team-members-box" src="http://via.placeholder.com/285x250" width="" height="" title="" alt=""></img>
+		<figcaption><h3>Player 1</h3>
+		<p>Jugador, #01</p></figcaption>
+	</figure>
+
+	<figure>
+	<img class= "team-members-box" src="http://via.placeholder.com/285x250" width="" height="" title="" alt=""></img>
+		<figcaption><h3>Player 2</h3>
+		<p>Jugador, #02</p></figcaption>
+	</figure>
+
+	<figure>
+	<img class= "team-members-box" src="http://via.placeholder.com/285x250" width="" height="" title="" alt=""></img>
+		<figcaption><h3>Player 3</h3>
+		<p>Jugador, #03</p></figcaption>
+	</figure>
+
+	<figure>
+	<img class= "team-members-box" src="http://via.placeholder.com/285x250" width="" height="" title="" alt=""></img>
+		<figcaption><h3>Player 4</h3>
+		<p>Jugador, #04</p></figcaption>
+	</figure>
+
+	<figure>
+	<img class= "team-members-box" src="http://via.placeholder.com/285x250" width="" height="" title="" alt=""></img>
+		<figcaption><h3>Player 5</h3>
+		<p>Jugador, #05</p></figcaption>
+	</figure>
+
+	<figure>
+	<img class= "team-members-box" src="http://via.placeholder.com/285x250" width="" height="" title="" alt=""></img>
+		<figcaption><h3>Player 6</h3>
+		<p>Jugador, #06</p></figcaption>
+	</figure>
+
+	<figure>
+	<img class= "team-members-box" src="http://via.placeholder.com/285x250" width="" height="" title="" alt=""></img>
+		<figcaption><h3>Player 7</h3>
+		<p>Jugador, #07</p></figcaption>
+	</figure>
+
+
+<!--
+<div class="team-member-name">
+	<p>Player Name </p>
+	<p>Role </p>
+	<div class="team-member-name">
+		<p>Player Name </p>
+		<p>Role </p>
+		<div class="team-member-name">
+			<p>Player Name </p>
+			<p>Role </p>
+			<div class="team-member-name">
+				<p>Player Name </p>
+				<p>Role </p>
+</div>
+</div>
+</div>
+</div>
+-->
+</div>
+    <div class="equipo-alv team-members">
+
+		</div>
+    <div class="equipo-inf team-members">
+			You have selected <strong>blue option</strong> so i am here
+		</div>
+		  <div class="equipo-sen team-members">You have selected <strong>blue option</strong> so i am here
+			</div>
+			  <div class="equipo-sur team-members">
+					You have selected <strong>blue option</strong> so i am here
+				</div>
+
+
+
+
+				<div class="equipo-direct team-members">
+					You have selected <strong>blue option</strong> so i am here
+				</div>
+
+
+
+		</div>
+
+
+
+
+
+
+
+		<!--Ending div -->
+		</div>
+
+  </body>
+
+  </html>

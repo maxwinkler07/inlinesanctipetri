@@ -1,2 +1,6 @@
 # inlinesanctipetri
-Web on google appengine for http://www.inlinesanctipetri.com
+Web del equipo de hockey en linea Inline Sancti Petri en Chiclana de la frotera, Andalucía, España
+
+http://www.inlinesanctipetri.com
+
+Este obra está bajo una licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.
