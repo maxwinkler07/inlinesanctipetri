@@ -335,42 +335,48 @@ figcaption{
 .equipo-benj{
 	position: relative;
 	top: 7.25em;
+	left: 1em;
 
 }
 
 .equipo-alv{
 	position: relative;
 	top: 7.25em;
+	left: 1em;
 }
 
 .equipo-inf{
 	position: relative;
 	top: 7.25em;
-
+	left: 1em;
 
 }
 
 .equipo-sen{
 	position: relative;
 	top: 7.25em;
+	left: 1em;
 
 }
 
 .equipo-sur{
 	position: relative;
 	top: 7.25em;
+	left: 1em;
 
 }
 
 .equipo-todos{
 	position: relative;
 	top: 7.25em;
+	left: 1em;
 
 }
 
-.equipos-direct{
+.equipo-direct{
 	position: relative;
 	top: 7.25em;
+	left: 1em;
 
 }
 
@@ -388,6 +394,7 @@ footer{
 	background-color: #f3f3f5;
 	height: 14.3em;
 	padding-left: 20vw;
+	text-align: center;
 
 }
 
@@ -485,10 +492,11 @@ footer iframe{
 }
 
 .styled-select.slate {
-   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+	 background: image(/images/arrow-down.jpg) no-repeat right center;
 	 background-color: blue;
    height: 34px;
    width: 240px;
+	 margin-left: 53em;
 }
 
 .styled-select.slate select {
